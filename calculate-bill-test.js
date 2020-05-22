@@ -8,7 +8,7 @@ describe("Calculate-bill factory function" ,function(){
         var calculateBillFunction = calculateBill();
         calculateBillFunction.forEachSmsAdd();
         assert.equal(0.75, calculateBillFunction.newSmsTotal() )
-    })
+    });
 it("should update totalBill to R8.50 when 2 calls and 4 sms are made", function(){
     var calculateBillFunction = calculateBill();
     calculateBillFunction.forEachCallAdd();
