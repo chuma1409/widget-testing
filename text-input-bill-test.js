@@ -1,4 +1,4 @@
-describe("Text-input-bill factory function" ,function(){
+describe("Text-input-bill testing" ,function(){
     it("should charge R2.75 for each new call", function(){
         var textBillFunction = textInputBill();
         textBillFunction.forEachCall();
